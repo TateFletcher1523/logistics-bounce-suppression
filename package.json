@@ -1,0 +1,8 @@
+{
+  "name": "logistics-bounce-suppression",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "tsx src/main.ts", "test": "tsx src/logistics.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"tsx": "^4.19.0", "zod": "^3.23.8"},
+  "devDependencies": {"@types/node": "^22.0.0", "typescript": "^5.6.0"}
+}
